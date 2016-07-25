@@ -12,7 +12,7 @@ Getting Started
 ---------------
 
 - [Add Firebase to your iOS Project](https://firebase.google.com/docs/ios/setup).
-- In the web/public/apple-app-site-association file, replace <YOUR-APPID-OR-TEAMID> with your
+- In the web/public/apple-app-site-association file, replace \<YOUR-APPID-OR-TEAMID> with your
   App ID or your Team ID.
 - Install the [Firebase Command Line Interface (CLI)](https://firebase.google.com/docs/hosting/quickstart#install-the-firebase-cli).
 - Run `firebase init`.
@@ -20,7 +20,7 @@ Getting Started
   - Hit Enter to select the default public directory as your website root.
 - Run `firebase deploy`.
 - In the **Capabilities** tab of XCode, turn on **Associated Domains**. Add
-  your Firebase hosting domain in the format applinks:<YOUR-DOMAIN>. Do not include "https://".
+  your Firebase hosting domain in the format applinks:\<YOUR-DOMAIN>. Do not include "https://".
   You can find your Firebase hosting domain in the Hosting section of the
   Firebase console.
 - Run the sample on your iOS device.
