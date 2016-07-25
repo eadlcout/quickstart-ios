@@ -2,7 +2,7 @@ Firebase Crash Quickstart
 =============================
 
 The Firebase Crash iOS quickstart demonstrates how to report crashes and log
-events leading up to those crashes.
+the events leading up to those crashes.
 
 Introduction
 ------------
@@ -14,7 +14,7 @@ Getting Started
 
 - [Add Firebase to your iOS Project](https://firevase.google.com/docs/ios/setup).
 - Run the sample on your iOS device or emulator.
-- Trigger a crash, and wait a few minutes to see it in the console
+- Trigger a crash and wait a few minutes to see it in the console.
 
 Note: You will need Swift 2.2 to run the Swift version of this quickstart.
 
