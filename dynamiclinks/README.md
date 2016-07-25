@@ -13,14 +13,14 @@ Getting Started
 - Follow the [quickstart guide](https://firebase.google.com) to set up your project.
 - Run the sample on your iOS device.
 - Create a Dynamic Link in the **Dynamic Links** section of the Firebase console.
-  - Custom Schemes of the form dlscheme://<data-to-pass>/<to-app> would be handled
+  - Custom Schemes of the form dlscheme://<data-to-pass>/<to-app> will be handled
     by the app. You can change dlscheme to fit your needs.
-  - For Universal Links be sure to add your APP ID or TEAM ID to your app when
+  - For Universal Links, be sure to add your APP ID or TEAM ID to your app when
     connecting. The apple-app-site-association file will be generated and
     hosted automatically.
   - From another application like Safari or Notes, you should be able to select
     your Dynamic Link and be taken to the quickstart app.
-  - On as of iOS 9, only Universal Links are considered strong links.
+  - As of iOS 9, only Universal Links are considered strong links.
 
 Note: You will need Swift 2.0 to run the Swift version of this quickstart.
 
