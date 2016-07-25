@@ -15,7 +15,7 @@ Getting Started
 ### Google Sign In Setup
 - Go to the [Firebase Console](https://console.firebase.google.com) and navigate to your project:
   - Select the **Auth** panel and then click the **Sign In Method** tab.
-  - Click **Google** and turn on the **Enable** switch, then click **Save**.
+  - Click **Google**, turn on the **Enable** switch, and then click **Save**.
 - In XCode, add a custom URL scheme for your reversed client ID.
   - You can find this in the `GoogleService-Info.plist`
 - Run the app on your device or simulator.
@@ -27,19 +27,19 @@ Getting Started
   `com.google.firebase.quickstart.AuthenticationExample`.
 - Go to the [Firebase Console](https://console.firebase.google.com) and navigate to your project:
   - Select the **Auth** panel and then click the **Sign In Method** tab.
-  - Click **Facebook** and turn on the **Enable** switch, then click **Save**.
+  - Click **Facebook**, turn on the **Enable** switch, and then click **Save**.
   - Enter your Facebook **App Id** and **App Secret** and click **Save**.
 - Open your regular `Info.plist` and replace the value of the `FacebookAppID` with the ID of the
-  Facebook app you just created, e.g 124567. Save that file.
+  Facebook app you just created (e.g., 124567). Save that file.
 - In the *Info* tab of your target settings add a *URL Type* with a *URL Scheme* of 'fb' + the ID
-  of your Facebook app, e.g. fb1234567.
+  of your Facebook app (e.g., fb1234567).
 - Run the app on your device or simulator.
     - Select **Sign In** and select Facebook to begin.
 
 ### Email/Password Setup
 - Go to the [Firebase Console](https://console.firebase.google.com) and navigate to your project:
   - Select the **Auth** panel and then click the **Sign In Method** tab.
-  - Click **Email/Password** and turn on the **Enable** switch, then click **Save**.
+  - Click **Email/Password**, turn on the **Enable** switch, and then click **Save**.
 - Run the app on your device or simulator.
     - Select **Sign In** and select Email to begin.
 
@@ -48,12 +48,12 @@ Getting Started
   instructions to set up a new iOS app.
 - Go to the [Firebase Console](https://console.firebase.google.com) and navigate to your project:
   - Select the **Auth** panel and then click the **Sign In Method** tab.
-  - Click **Twitter** and turn on the **Enable** switch, then click **Save**.
+  - Click **Twitter**, turn on the **Enable** switch, and then click **Save**.
   - Enter your Twitter **API Key** and **App Secret** and click **Save**.
 - Open your regular `Info.plist` and replace the value of the `consumerKey` and `consumerSecret` values with the keys from the Twitter app you just created.
 - Run the app on your device or simulator.
     - Select **Sign In** and select Twitter to begin.
-- Note: you can also integrate with Twitter via Fabric using `[Fabric with:@[ [Twitter class] ]];`
+- Note: you can also integrate with Twitter via Fabric using `[Fabric with:@[ [Twitter class] ]];`.
 
 ### Custom Authentication Setup
 - Go to the [Google Developers Console](https://console.developers.google.com/project) and navigate to your project:
