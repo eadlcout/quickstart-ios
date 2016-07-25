@@ -1,7 +1,7 @@
 Firebase Storage Quickstart
 =============================
 
-The Firebase Storage iOS quickstart demonstrates how to upload data to a Firebase Storage bucket, and retrieve a download URL.
+The Firebase Storage iOS quickstart demonstrates how to upload data to a Firebase Storage bucket and retrieve a download URL.
 
 Introduction
 ------------
