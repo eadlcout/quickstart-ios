@@ -1,7 +1,7 @@
 Firebase Messaging Quickstart
 =============================
 
-The Firebase Messaging iOS Quickstart app demonstrates how to connect
+The Firebase Messaging iOS quickstart app demonstrates how to connect
 an iOS app to FCM and how to receive messages.
 
 Introduction
@@ -12,9 +12,9 @@ Introduction
 Getting Started
 ---------------
 
-- Add APNS certs to your project in **Project Settings** > **Notifications** in the [console](https://console.firebase.google.com)
-- Run `pod install`
-- Copy in the GoogleServices-Info.plist to your project
+- Add APNS certs to your project in **Project Settings** > **Notifications** in the [console](https://console.firebase.google.com).
+- Run `pod install`.
+- Copy in the GoogleServices-Info.plist to your project.
 - Update the app Bundle ID in XCode to match the Bundle ID of your APNs cert.
 - Run the sample on your iOS device.
 
